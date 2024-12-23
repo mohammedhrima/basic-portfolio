@@ -1,0 +1,59 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/build/
+/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vscode settings
+.vscode/
+
+# Tailwind's output files (if applicable)
+public/styles.css
+
+# Coverage directory used by tools like jest
+/coverage/
+
+# Parcel cache
+.cache/
+
+# React Native/Expo
+.expo/
+.expo-shared/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# IDE specific folders and files
+.idea/
+
+# Package-lock files (Optional, if using Yarn)
+/package-lock.json
+
+# Yarn lock files
+/yarn.lock
+
+# Logs
+logs
+*.log
+
+# Tailwind Build output (if using PostCSS setup with a custom build folder)
+postcss-output/
+
